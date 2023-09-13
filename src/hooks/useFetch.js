@@ -3,7 +3,7 @@ import axios from 'axios';
 
 axios.defaults.baseURL = 'https://api.spacexdata.com/v4/';
 
-export default function useFetch(url) {
+const useFetch = (url) => {
   const [data, setData] = useState(null);
 
   useEffect(() => {
@@ -16,4 +16,6 @@ export default function useFetch(url) {
   }, [url]);
 
   return [data];
-}
+};
+
+export default useFetch;
