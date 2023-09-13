@@ -1,7 +1,8 @@
 const routes = {
   HOME: '/',
   LAUNCHES: '/launches',
-  SINGLELAUNCH: '/launches/:id'
+  SINGLELAUNCH: '/launches/:id',
+  ERRORPAGE: '*'
 };
 
 export default routes;
