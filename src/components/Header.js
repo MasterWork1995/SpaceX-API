@@ -18,7 +18,17 @@ const Header = () => {
         <nav className={isOpen ? 'open' : ''}>
           <ul>
             <li>
-              <Link to={routes.LAUNCHES} className="text-white text-sm">
+              <Link to={routes.CAPSULES} className="text-white text-sm hover:text-sky-700 transition">
+                Capsules
+              </Link>
+            </li>
+            <li>
+              <Link to={routes.CORES} className="text-white text-sm hover:text-sky-700 transition">
+                Cores
+              </Link>
+            </li>
+            <li>
+              <Link to={routes.LAUNCHES} className="text-white text-sm hover:text-sky-700 transition">
                 Launches
               </Link>
             </li>

@@ -1,6 +1,8 @@
 const fetchConstants = {
   COMPANY: 'company',
-  LAUNCHES: 'launches'
+  CORES: 'cores',
+  LAUNCHES: 'launches',
+  CAPSULES: 'capsules'
 };
 
 export default fetchConstants;

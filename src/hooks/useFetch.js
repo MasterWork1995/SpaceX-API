@@ -1,7 +1,7 @@
 import { useState, useEffect } from 'react';
 import axios from 'axios';
 
-axios.defaults.baseURL = 'https://api.spacexdata.com/v4/';
+axios.defaults.baseURL = 'https://api.spacexdata.com';
 
 export default function useFetch(url) {
   const [data, setData] = useState(null);

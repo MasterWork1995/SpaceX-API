@@ -45,16 +45,24 @@ const Homepage = () => {
                   <h2 className="font-bold border-b-2 border-white text-xl mb-3 pb-2 uppercase tracking-wider">Useful Links</h2>
                   <ul className="text-sm opacity-75">
                     <li className="mb-1">
-                      <a href={data.links.website}>Website</a>
+                      <a className="underline hover:text-sky-700 transition" href={data.links.website} target="_blank">
+                        Website
+                      </a>
                     </li>
                     <li className="mb-1">
-                      <a href={data.links.flickr}>Flickr</a>
+                      <a className="underline hover:text-sky-700 transition" href={data.links.flickr} target="_blank">
+                        Flickr
+                      </a>
                     </li>
                     <li className="mb-1">
-                      <a href={data.links.twitter}>Twitter</a>
+                      <a className="underline hover:text-sky-700 transition" href={data.links.twitter} target="_blank">
+                        Twitter
+                      </a>
                     </li>
                     <li className="mb-1">
-                      <a href={data.links.elon_twitter}>Elon Twitter</a>
+                      <a className="underline hover:text-sky-700 transition" href={data.links.elon_twitter} target="_blank">
+                        Elon Twitter
+                      </a>
                     </li>
                   </ul>
                 </article>
