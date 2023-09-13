@@ -26,7 +26,7 @@ const SingleLaunch = () => {
           <article>
             <h1 className="heading">{data.name}</h1>
             <h2 className="text-white font-bold text-xl opacity-75 mt-2">
-              Launch Date: {format(new Date(data.date_local), 'dd MMMM yyyy')},{' '}
+              Launch Date: {format(new Date(data.date_local), 'dd MMMM yyyy')},
               {data.success ? <span className="text-emerald-500">Successful</span> : <span className="text-rose-500">Failed</span>}
             </h2>
 
